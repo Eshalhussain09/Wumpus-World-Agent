@@ -1,2 +1,5 @@
-{"build":{"builder":"NIXPACKS","buildCommand":"pip3 install -r 
-requirements.txt"},"deploy":{"startCommand":"python3 wumpus_agent_py"}}
+{
+  "deploy": {
+    "startCommand": "python3 wumpus_agent.py"
+  }
+}
